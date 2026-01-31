@@ -1,0 +1,46 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+namespace DemographicDisplay
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 2. Define variables and 3. Assign example values
+            string studentId = "24887234";
+            string fullName = "Mary Flor GAMALI"; 
+            string nickName = "Flor";
+            string gender = "Female";
+            
+            // FIX: Changed 'int' to 'string' and added quotes around the value
+            string yearLevel = "2nd year"; 
+            
+            string homeLocation = "Cebu City, Philippines";
+            string course = "BS in Computer Science";
+            string personalEmail = "florgamali4466@gmail.com";
+
+            // 4. Use Console.WriteLine to display the values
+            Console.WriteLine("======================================");
+            Console.WriteLine("        STUDENT DEMOGRAPHICS         ");
+            Console.WriteLine("======================================");
+            
+            Console.WriteLine($"Student ID:     {studentId}");
+            Console.WriteLine($"Full Name:      {fullName}");
+            Console.WriteLine($"Nick Name:      {nickName}");
+            Console.WriteLine($"Gender:         {gender}");
+            Console.WriteLine($"Year Level:     {yearLevel}");
+            Console.WriteLine($"Home Location:  {homeLocation}");
+            Console.WriteLine($"Course:         {course}");
+            Console.WriteLine($"Personal Email: {personalEmail}");
+
+            Console.WriteLine("======================================");
+
+            // Keeps the console window open
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
